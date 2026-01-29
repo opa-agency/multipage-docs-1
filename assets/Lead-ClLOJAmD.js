@@ -1,0 +1,1 @@
+import{b as s}from"./Heading-Bz4gl1Nh.js";import{o as r,q as e,w as t,r as o,n as l}from"./index-CUASkk3j.js";const i={__name:"Lead",setup(n){return(a,c)=>(r(),e(s,{variant:"lead",class:l(a.$attrs.class)},{default:t(()=>[o(a.$slots,"default")]),_:3},8,["class"]))}};export{i as _};
