@@ -58,7 +58,7 @@
             <div class="mt-10">
               <Button variant="outline" href="/blog">
                 <ChevronLeftIcon class="size-4" />
-                Back to blog
+                Înapoi la blog
               </Button>
             </div>
           </div>
@@ -74,6 +74,7 @@ import { computed } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
 import { ChevronLeftIcon } from '@heroicons/vue/20/solid'
 import dayjs from 'dayjs'
+import 'dayjs/locale/ro'
 import Button from '../components/Button.vue'
 import Container from '../components/Container.vue'
 import Footer from '../components/Footer.vue'
@@ -86,6 +87,8 @@ import { getPostBySlug } from '../data/blog-posts'
 
 const route = useRoute()
 const router = useRouter()
+
+dayjs.locale('ro')
 
 const post = computed(() => getPostBySlug(route.params.slug))
 

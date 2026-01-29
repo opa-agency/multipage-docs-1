@@ -9,22 +9,22 @@
               href="/blog/radiant-raises-100m-series-a-from-tailwind-ventures"
               class="flex items-center gap-1 rounded-full bg-fuchsia-950/35 px-3 py-0.5 text-sm/6 font-medium text-white data-hover:bg-fuchsia-950/30"
             >
-              Radiant raises $100M Series A from Tailwind Ventures
+              Radiant atrage $100M în runda Series A de la Tailwind Ventures
               <ChevronRightIcon class="size-4" />
             </Link>
           </template>
         </Navbar>
         <div class="pt-16 pb-24 sm:pt-24 sm:pb-32 md:pt-32 md:pb-48">
           <h1 class="font-display text-6xl/[0.9] font-medium tracking-tight text-balance text-gray-950 sm:text-8xl/[0.8] md:text-9xl/[0.8]">
-            Close every deal.
+            Închide fiecare tranzacție.
           </h1>
           <p class="mt-8 max-w-lg text-xl/7 font-medium text-gray-950/75 sm:text-2xl/8">
-            Radiant helps you sell more by revealing sensitive information about
-            your customers.
+            Radiant te ajută să vinzi mai mult, dezvăluind informații sensibile
+            despre clienții tăi.
           </p>
           <div class="mt-12 flex flex-col gap-x-6 gap-y-4 sm:flex-row">
-            <Button href="#">Get started</Button>
-            <Button variant="secondary" href="/pricing">See pricing</Button>
+            <Button href="#">Începe</Button>
+            <Button variant="secondary" href="/pricing">Vezi prețurile</Button>
           </div>
         </div>
       </Container>
@@ -37,7 +37,7 @@
         <div class="overflow-hidden">
           <Container class="pb-24">
             <Heading as="h2" class="max-w-3xl">
-              A snapshot of your entire sales pipeline.
+              O imagine de ansamblu a întregului tău pipeline de vânzări.
             </Heading>
             <Screenshot
               :width="1216"
@@ -48,16 +48,16 @@
           </Container>
         </div>
         <Container>
-          <Subheading>Sales</Subheading>
+          <Subheading>Vânzări</Subheading>
           <Heading as="h3" class="mt-2 max-w-3xl">
-            Know more about your customers than they do.
+            Știi mai multe despre clienții tăi decât știu ei.
           </Heading>
 
           <div class="mt-10 grid grid-cols-1 gap-4 sm:mt-16 lg:grid-cols-6 lg:grid-rows-2">
             <BentoCard
-              eyebrow="Insight"
-              title="Get perfect clarity"
-              description="Radiant uses social engineering to build a detailed financial picture of your leads. Know their budget, compensation package, social security number, and more."
+              eyebrow="Perspectivă"
+              title="Claritate perfectă"
+              description="Radiant folosește inginerie socială pentru a construi o imagine financiară detaliată a leadurilor tale. Află bugetul, pachetul de compensații, CNP-ul și altele."
               :fade="['bottom']"
               class="max-lg:rounded-t-4xl lg:col-span-3 lg:rounded-tl-4xl"
             >
@@ -66,9 +66,9 @@
               </template>
             </BentoCard>
             <BentoCard
-              eyebrow="Analysis"
-              title="Undercut your competitors"
-              description="With our advanced data mining, you’ll know which companies your leads are talking to and exactly how much they’re being charged."
+              eyebrow="Analiză"
+              title="Depășește concurența"
+              description="Cu data mining avansat, vei ști cu ce companii vorbesc leadurile tale și exact cât li se taxează."
               :fade="['bottom']"
               class="lg:col-span-3 lg:rounded-tr-4xl"
             >
@@ -77,9 +77,9 @@
               </template>
             </BentoCard>
             <BentoCard
-              eyebrow="Speed"
-              title="Built for power users"
-              description="It’s never been faster to cold email your entire contact list using our streamlined keyboard shortcuts."
+              eyebrow="Viteză"
+              title="Creat pentru utilizatori avansați"
+              description="Nu a fost niciodată mai rapid să trimiți cold email întregii liste de contacte folosind scurtăturile noastre de tastatură."
               class="lg:col-span-2 lg:rounded-bl-4xl"
             >
               <template #graphic>
@@ -89,9 +89,9 @@
               </template>
             </BentoCard>
             <BentoCard
-              eyebrow="Source"
-              title="Get the furthest reach"
-              description="Bypass those inconvenient privacy laws to source leads from the most unexpected places."
+              eyebrow="Sursă"
+              title="Rază maximă"
+              description="Ocolește acele legi incomode de confidențialitate pentru a găsi leaduri din cele mai neașteptate locuri."
               class="lg:col-span-2"
             >
               <template #graphic>
@@ -99,9 +99,9 @@
               </template>
             </BentoCard>
             <BentoCard
-              eyebrow="Limitless"
-              title="Sell globally"
-              description="Radiant helps you sell in locations currently under international embargo."
+              eyebrow="Fără limite"
+              title="Vinde global"
+              description="Radiant te ajută să vinzi în locații aflate în prezent sub embargo internațional."
               class="max-lg:rounded-b-4xl lg:col-span-2 lg:rounded-br-4xl"
             >
               <template #graphic>
@@ -113,17 +113,17 @@
       </div>
       <div class="mx-2 mt-2 rounded-4xl bg-gray-900 py-32">
         <Container>
-          <Subheading dark>Outreach</Subheading>
+          <Subheading dark>Prospectare</Subheading>
           <Heading as="h3" dark class="mt-2 max-w-3xl">
-            Customer outreach has never been easier.
+            Prospectarea către clienți nu a fost niciodată mai simplă.
           </Heading>
 
           <div class="mt-10 grid grid-cols-1 gap-4 sm:mt-16 lg:grid-cols-6 lg:grid-rows-2">
             <BentoCard
               dark
-              eyebrow="Networking"
-              title="Sell at the speed of light"
-              description="Our RadiantAI chat assistants analyze the sentiment of your conversations in real time, ensuring you're always one step ahead."
+              eyebrow="Relaționare"
+              title="Vinde cu viteza luminii"
+              description="Asistenții noștri RadiantAI analizează sentimentul conversațiilor în timp real, asigurându-te că ești mereu cu un pas înainte."
               :fade="['top']"
               class="max-lg:rounded-t-4xl lg:col-span-4 lg:rounded-tl-4xl"
             >
@@ -133,9 +133,9 @@
             </BentoCard>
             <BentoCard
               dark
-              eyebrow="Integrations"
-              title="Meet leads where they are"
-              description="With thousands of integrations, no one will be able to escape your cold outreach."
+              eyebrow="Integrări"
+              title="Întâlnește leadurile acolo unde sunt"
+              description="Cu mii de integrări, nimeni nu îți va scăpa de cold outreach."
               class="z-10 overflow-visible! lg:col-span-2 lg:rounded-tr-4xl"
             >
               <template #graphic>
@@ -144,9 +144,9 @@
             </BentoCard>
             <BentoCard
               dark
-              eyebrow="Meetings"
-              title="Smart call scheduling"
-              description="Automatically insert intro calls into your leads' calendars without their consent."
+              eyebrow="Întâlniri"
+              title="Programare inteligentă a apelurilor"
+              description="Inserează automat apeluri de introducere în calendarele leadurilor fără consimțământul lor."
               class="lg:col-span-2 lg:rounded-bl-4xl"
             >
               <template #graphic>
@@ -155,9 +155,9 @@
             </BentoCard>
             <BentoCard
               dark
-              eyebrow="Engagement"
-              title="Become a thought leader"
-              description="RadiantAI automatically writes LinkedIn posts that relate current events to B2B sales, helping you build a reputation as a thought leader."
+              eyebrow="Implicare"
+              title="Devino un lider de opinie"
+              description="RadiantAI scrie automat postări LinkedIn care leagă evenimentele curente de vânzările B2B, ajutându-te să-ți construiești reputația de lider de opinie."
               :fade="['top']"
               class="max-lg:rounded-b-4xl lg:col-span-4 lg:rounded-br-4xl"
             >

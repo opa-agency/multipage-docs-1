@@ -9,8 +9,8 @@
               <Logo :mark-only="true" class="h-9 fill-black" />
             </Link>
           </div>
-          <h1 class="mt-8 text-base/6 font-medium">Welcome back!</h1>
-          <p class="mt-1 text-sm/5 text-gray-600">Sign in to your account to continue.</p>
+          <h1 class="mt-8 text-base/6 font-medium">Bine ai revenit!</h1>
+          <p class="mt-1 text-sm/5 text-gray-600">Autentifică-te în cont pentru a continua.</p>
           <div class="mt-8 space-y-3">
             <label class="text-sm/5 font-medium">Email</label>
             <input
@@ -22,7 +22,7 @@
             />
           </div>
           <div class="mt-8 space-y-3">
-            <label class="text-sm/5 font-medium">Password</label>
+            <label class="text-sm/5 font-medium">Parolă</label>
             <input
               required
               type="password"
@@ -37,17 +37,17 @@
                 name="remember-me"
                 class="size-4 rounded-sm border border-transparent shadow-sm ring-1 ring-black/10 checked:bg-black checked:ring-black focus:outline-2 focus:outline-offset-2 focus:outline-black"
               />
-              <span>Remember me</span>
+              <span>Ține-mă minte</span>
             </label>
-            <Link href="#" class="font-medium hover:text-gray-600">Forgot password?</Link>
+            <Link href="#" class="font-medium hover:text-gray-600">Ai uitat parola?</Link>
           </div>
           <div class="mt-8">
-            <Button type="submit" class="w-full">Sign in</Button>
+            <Button type="submit" class="w-full">Autentificare</Button>
           </div>
         </form>
         <div class="m-1.5 rounded-lg bg-gray-50 py-4 text-center text-sm/5 ring-1 ring-black/5">
-          Not a member?
-          <Link href="#" class="font-medium hover:text-gray-600">Create an account</Link>
+          Nu ai cont?
+          <Link href="#" class="font-medium hover:text-gray-600">Creează un cont</Link>
         </div>
       </div>
     </div>

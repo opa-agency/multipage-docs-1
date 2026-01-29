@@ -4,28 +4,30 @@
     <Container>
       <Navbar />
       <Container class="mt-16">
-        <Heading as="h1">Helping companies generate revenue.</Heading>
+        <Heading as="h1">Ajutăm companiile să genereze venit.</Heading>
         <Lead class="mt-6 max-w-3xl">
-          We’re on a mission to transform revenue organizations by harnessing vast
-          amounts of illegally acquired customer data.
+          Suntem într-o misiune de a transforma organizațiile de revenue prin
+          valorificarea unor volume uriașe de date obținute ilegal despre clienți.
         </Lead>
         <section class="mt-16 grid grid-cols-1 lg:grid-cols-2 lg:gap-12">
           <div class="max-w-lg">
-            <h2 class="text-2xl font-medium tracking-tight">Our mission</h2>
+            <h2 class="text-2xl font-medium tracking-tight">Misiunea noastră</h2>
             <p class="mt-6 text-sm/6 text-gray-600">
-              At Radiant, we are dedicated to transforming the way revenue
-              organizations source and close deals. Our mission is to provide our
-              customers with an unfair advantage over both their competitors and
-              potential customers through insight and analysis. We’ll stop at
-              nothing to get you the data you need to close a deal.
+              La Radiant, suntem dedicați transformării modului în care
+              organizațiile de revenue găsesc și închid tranzacții. Misiunea
+              noastră este să le oferim clienților un avantaj incorect față de
+              competitori și potențialii clienți prin insight și analiză. Nu ne
+              oprim până nu obții datele de care ai nevoie pentru a închide o
+              tranzacție.
             </p>
             <p class="mt-8 text-sm/6 text-gray-600">
-              We’re customer-obsessed — putting the time in to build a detailed
-              financial picture of every one of our customers so that we know more
-              about your business than you do. We are in this together, mostly
-              because we are all implicated in large-scale financial crime. In our
-              history as a company, we’ve never lost a customer, because if any
-              one of us talks, we all go down.
+              Suntem obsedați de clienți — investim timp pentru a construi o
+              imagine financiară detaliată a fiecărui client, astfel încât să
+              știm mai multe despre afacerea ta decât știi tu. Suntem în asta
+              împreună, în mare parte pentru că suntem cu toții implicați în
+              infracțiuni financiare la scară largă. În istoria companiei nu am
+              pierdut niciun client, pentru că dacă vorbește unul dintre noi,
+              cădem toți.
             </p>
           </div>
           <div class="pt-20 lg:row-span-2 lg:-mr-16 xl:mr-auto">
@@ -45,29 +47,29 @@
             </div>
           </div>
           <div class="max-lg:mt-16 lg:col-span-1">
-            <Subheading>The Numbers</Subheading>
+            <Subheading>Numerele</Subheading>
             <hr class="mt-6 border-t border-gray-200" />
             <dl class="mt-6 grid grid-cols-1 gap-x-8 gap-y-4 sm:grid-cols-2">
               <div class="flex flex-col gap-y-2 border-b border-dotted border-gray-200 pb-4">
-                <dt class="text-sm/6 text-gray-600">Raised</dt>
+                <dt class="text-sm/6 text-gray-600">Runda</dt>
                 <dd class="order-first text-6xl font-medium tracking-tight">
                   $<AnimatedNumber :start="100" :end="150" />M
                 </dd>
               </div>
               <div class="flex flex-col gap-y-2 border-b border-dotted border-gray-200 pb-4">
-                <dt class="text-sm/6 text-gray-600">Companies</dt>
+                <dt class="text-sm/6 text-gray-600">Companii</dt>
                 <dd class="order-first text-6xl font-medium tracking-tight">
                   <AnimatedNumber :start="15" :end="30" />K
                 </dd>
               </div>
               <div class="flex flex-col gap-y-2 max-sm:border-b max-sm:border-dotted max-sm:border-gray-200 max-sm:pb-4">
-                <dt class="text-sm/6 text-gray-600">Deals Closed</dt>
+                <dt class="text-sm/6 text-gray-600">Tranzacții închise</dt>
                 <dd class="order-first text-6xl font-medium tracking-tight">
                   <AnimatedNumber :start="0.9" :end="1.5" :decimals="1" />M
                 </dd>
               </div>
               <div class="flex flex-col gap-y-2">
-                <dt class="text-sm/6 text-gray-600">Leads Generated</dt>
+                <dt class="text-sm/6 text-gray-600">Leaduri generate</dt>
                 <dd class="order-first text-6xl font-medium tracking-tight">
                   <AnimatedNumber :start="150" :end="200" />M
                 </dd>
@@ -77,32 +79,32 @@
         </section>
       </Container>
       <Container class="mt-32">
-        <Subheading>Meet the team</Subheading>
-        <Heading as="h3" class="mt-2">Founded by an all-star team.</Heading>
+        <Subheading>Cunoaște echipa</Subheading>
+        <Heading as="h3" class="mt-2">Fondată de o echipă de excepție.</Heading>
         <Lead class="mt-6 max-w-3xl">
-          Radiant is founded by two of the best sellers in the business and backed
-          by investors who look the other way.
+          Radiant a fost fondată de doi dintre cei mai buni vânzători din
+          industrie și susținută de investitori care privesc în altă parte.
         </Lead>
         <div class="mt-12 grid grid-cols-1 gap-12 lg:grid-cols-2">
           <div class="max-w-lg">
             <p class="text-sm/6 text-gray-600">
-              Years ago, while working as sales associates at rival companies,
-              Thomas, Ben, and Natalie were discussing a big client they had all
-              been competing for. Joking about seeing the terms of each other’s
-              offers, they had an idea: what if they shared data to win deals and
-              split the commission behind their companies’ backs? It turned out to
-              be an incredible success, and that idea became the kernel for
-              Radiant.
+              În urmă cu ani, lucrând ca agenți de vânzări la companii rivale,
+              Thomas, Ben și Natalie discutau despre un client important pentru
+              care concurau toți. Glumind că ar vrea să vadă termenii ofertelor
+              celorlalți, au avut o idee: ce-ar fi dacă ar împărți date ca să
+              câștige tranzacții și să împartă comisionul pe la spatele
+              companiilor? S-a dovedit un succes incredibil, iar ideea aceea a
+              devenit nucleul Radiant.
             </p>
             <p class="mt-8 text-sm/6 text-gray-600">
-              Today, Radiant transforms revenue organizations by harnessing
-              illegally acquired customer and competitor data, using it to provide
-              extraordinary leverage. More than 30,000 companies rely on Radiant
-              to undercut their competitors and extort their customers, all
-              through a single integrated platform.
+              Astăzi, Radiant transformă organizațiile de revenue prin
+              valorificarea datelor despre clienți și competitori obținute ilegal,
+              folosindu-le pentru a oferi un avantaj extraordinar. Peste 30.000
+              de companii se bazează pe Radiant pentru a-și submina concurența și
+              a-și șantaja clienții, totul printr-o singură platformă integrată.
             </p>
             <div class="mt-6">
-              <Button class="w-full sm:w-auto" href="#">Join us</Button>
+              <Button class="w-full sm:w-auto" href="#">Alătură-te</Button>
             </div>
           </div>
           <div class="max-lg:order-first max-lg:max-w-lg">
@@ -111,7 +113,7 @@
             </div>
           </div>
         </div>
-        <Subheading as="h3" class="mt-24">The team</Subheading>
+        <Subheading as="h3" class="mt-24">Echipa</Subheading>
         <hr class="mt-6 border-t border-gray-200" />
         <ul role="list" class="mx-auto mt-16 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
           <Person name="Michael Foster" description="Co-Founder / CTO" img="/team/michael-foster.jpg" />
@@ -126,11 +128,11 @@
         </ul>
       </Container>
       <Container class="mt-32">
-        <Subheading>Investors</Subheading>
-        <Heading as="h3" class="mt-2">Funded by industry-leaders.</Heading>
+        <Subheading>Investitori</Subheading>
+        <Heading as="h3" class="mt-2">Finanțată de lideri din industrie.</Heading>
         <Lead class="mt-6 max-w-3xl">
-          We are fortunate to be backed by the best investors in the industry —
-          both literal and metaphorical partners in crime.
+          Suntem norocoși să fim susținuți de cei mai buni investitori din
+          industrie — parteneri la propriu și la figurat.
         </Lead>
         <Subheading as="h3" class="mt-24">Venture Capital</Subheading>
         <hr class="mt-6 border-t border-gray-200" />
@@ -138,25 +140,25 @@
           <li>
             <img alt="Remington Schwartz" src="/investors/remington-schwartz.svg" class="h-14" />
             <p class="mt-6 max-w-lg text-sm/6 text-gray-500">
-              Remington Schwartz has been a driving force in the tech industry,
-              backing bold entrepreneurs who explore grey areas in financial and
-              privacy law. Their deep industry expertise and extensive political
-              lobbying provide their portfolio companies with favorable regulation
-              and direct access to lawmakers.
+              Remington Schwartz a fost o forță motrice în industria tech,
+              susținând antreprenori curajoși care explorează zone gri în legea
+              financiară și a confidențialității. Expertiza lor profundă și
+              lobby-ul politic extins oferă companiilor din portofoliu reguli
+              favorabile și acces direct la decidenți.
             </p>
           </li>
           <li>
             <img alt="Deccel" src="/investors/deccel.svg" class="h-14" />
             <p class="mt-6 max-w-lg text-sm/6 text-gray-500">
-              Deccel has been at the forefront of innovation, investing in
-              pioneering companies across various sectors, including technology,
-              consumer goods, and healthcare. Their philosophy of ‘plausible
-              deniability’ and dedication to looking the other way have helped
-              produce some of the world’s most controversial companies.
+              Deccel s-a aflat în avangarda inovației, investind în companii
+              pionierat din diverse sectoare, inclusiv tehnologie, bunuri de
+              consum și sănătate. Filosofia lor de „negare plauzibilă” și
+              dedicarea de a privi în altă parte au ajutat la crearea unora dintre
+              cele mai controversate companii din lume.
             </p>
           </li>
         </ul>
-        <Subheading as="h3" class="mt-24">Individual investors</Subheading>
+        <Subheading as="h3" class="mt-24">Investitori individuali</Subheading>
         <hr class="mt-6 border-t border-gray-200" />
         <ul role="list" class="mx-auto mt-16 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
           <Person name="Kristin Watson" description="TechNexus Ventures" img="/individual-investors/kristin-watson.jpg" />
@@ -168,15 +170,15 @@
         </ul>
       </Container>
       <Container class="my-32">
-        <Subheading>Careers</Subheading>
-        <Heading as="h3" class="mt-2">Join our fully remote team.</Heading>
+        <Subheading>Cariere</Subheading>
+        <Heading as="h3" class="mt-2">Alătură-te echipei noastre remote.</Heading>
         <Lead class="mt-6 max-w-3xl">
-          We work together from all over the world, mainly from locations without
-          extradition agreements.
+          Lucrăm împreună de oriunde din lume, mai ales din locații fără acorduri
+          de extrădare.
         </Lead>
         <div class="mt-24 grid grid-cols-1 gap-16 lg:grid-cols-[1fr_24rem]">
           <div class="lg:max-w-2xl">
-            <Subheading as="h3">Open positions</Subheading>
+            <Subheading as="h3">Posturi deschise</Subheading>
             <div>
               <table class="w-full text-left">
                 <colgroup>
@@ -194,28 +196,28 @@
                 <tbody>
                   <tr>
                     <th scope="colgroup" colspan="3" class="px-0 pt-10 pb-0">
-                      <div class="-mx-4 rounded-lg bg-gray-50 px-4 py-3 text-sm/6 font-semibold">Engineering</div>
+                      <div class="-mx-4 rounded-lg bg-gray-50 px-4 py-3 text-sm/6 font-semibold">Inginerie</div>
                     </th>
                   </tr>
                   <tr class="border-b border-dotted border-gray-200 text-sm/6 font-normal">
-                    <td class="px-0 py-4">iOS Developer</td>
+                    <td class="px-0 py-4">Dezvoltator iOS</td>
                     <td class="px-0 py-4 text-gray-600">Remote</td>
                     <td class="px-0 py-4 text-right">
-                      <Button variant="outline" href="#">View listing</Button>
+                      <Button variant="outline" href="#">Vezi anunțul</Button>
                     </td>
                   </tr>
                   <tr class="border-b border-dotted border-gray-200 text-sm/6 font-normal">
-                    <td class="px-0 py-4">Backend Engineer</td>
+                    <td class="px-0 py-4">Inginer Backend</td>
                     <td class="px-0 py-4 text-gray-600">Remote</td>
                     <td class="px-0 py-4 text-right">
-                      <Button variant="outline" href="#">View listing</Button>
+                      <Button variant="outline" href="#">Vezi anunțul</Button>
                     </td>
                   </tr>
                   <tr class="text-sm/6 font-normal">
-                    <td class="px-0 py-4">Product Engineer</td>
+                    <td class="px-0 py-4">Inginer de produs</td>
                     <td class="px-0 py-4 text-gray-600">Remote</td>
                     <td class="px-0 py-4 text-right">
-                      <Button variant="outline" href="#">View listing</Button>
+                      <Button variant="outline" href="#">Vezi anunțul</Button>
                     </td>
                   </tr>
                   <tr>
@@ -224,17 +226,17 @@
                     </th>
                   </tr>
                   <tr class="border-b border-dotted border-gray-200 text-sm/6 font-normal">
-                    <td class="px-0 py-4">Product Designer</td>
+                    <td class="px-0 py-4">Designer de produs</td>
                     <td class="px-0 py-4 text-gray-600">Remote</td>
                     <td class="px-0 py-4 text-right">
-                      <Button variant="outline" href="#">View listing</Button>
+                      <Button variant="outline" href="#">Vezi anunțul</Button>
                     </td>
                   </tr>
                   <tr class="text-sm/6 font-normal">
-                    <td class="px-0 py-4">UX Designer</td>
+                    <td class="px-0 py-4">Designer UX</td>
                     <td class="px-0 py-4 text-gray-600">Remote</td>
                     <td class="px-0 py-4 text-right">
-                      <Button variant="outline" href="#">View listing</Button>
+                      <Button variant="outline" href="#">Vezi anunțul</Button>
                     </td>
                   </tr>
                 </tbody>

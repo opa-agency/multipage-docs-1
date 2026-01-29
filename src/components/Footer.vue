@@ -5,19 +5,19 @@
       <Container>
         <div class="relative pt-20 pb-16 text-center sm:py-24">
           <hgroup>
-            <Subheading>Get started</Subheading>
+            <Subheading>Începe</Subheading>
             <p class="mt-6 text-3xl font-medium tracking-tight text-gray-950 sm:text-5xl">
-              Ready to dive in?
+              Gata să începi?
               <br />
-              Start your free trial today.
+              Începe perioada gratuită astăzi.
             </p>
           </hgroup>
           <p class="mx-auto mt-6 max-w-xs text-sm/6 text-gray-500">
-            Get the cheat codes for selling and unlock your team&apos;s revenue
-            potential.
+            Obține trucurile de vânzări și deblochează potențialul de venit al
+            echipei tale.
           </p>
           <div class="mt-6">
-            <Button class="w-full sm:w-auto" href="#">Get started</Button>
+            <Button class="w-full sm:w-auto" href="#">Începe</Button>
           </div>
         </div>
         <PlusGrid class="pb-16">
@@ -30,13 +30,13 @@
               </div>
               <div class="col-span-2 grid grid-cols-2 gap-x-8 gap-y-12 lg:col-span-4 lg:grid-cols-subgrid lg:pt-6">
                 <div>
-                  <h3 class="text-sm/6 font-medium text-gray-950/50">Product</h3>
+                  <h3 class="text-sm/6 font-medium text-gray-950/50">Produs</h3>
                   <ul class="mt-6 space-y-4 text-sm/6">
                     <li>
-                      <Link href="/pricing" class="font-medium text-gray-950 data-hover:text-gray-950/75">Pricing</Link>
+                      <Link href="/pricing" class="font-medium text-gray-950 data-hover:text-gray-950/75">Prețuri</Link>
                     </li>
                     <li>
-                      <Link href="#" class="font-medium text-gray-950 data-hover:text-gray-950/75">Analysis</Link>
+                      <Link href="#" class="font-medium text-gray-950 data-hover:text-gray-950/75">Analiză</Link>
                     </li>
                     <li>
                       <Link href="#" class="font-medium text-gray-950 data-hover:text-gray-950/75">API</Link>
@@ -44,38 +44,38 @@
                   </ul>
                 </div>
                 <div>
-                  <h3 class="text-sm/6 font-medium text-gray-950/50">Company</h3>
+                  <h3 class="text-sm/6 font-medium text-gray-950/50">Companie</h3>
                   <ul class="mt-6 space-y-4 text-sm/6">
                     <li>
-                      <Link href="#" class="font-medium text-gray-950 data-hover:text-gray-950/75">Careers</Link>
+                      <Link href="#" class="font-medium text-gray-950 data-hover:text-gray-950/75">Cariere</Link>
                     </li>
                     <li>
                       <Link href="/blog" class="font-medium text-gray-950 data-hover:text-gray-950/75">Blog</Link>
                     </li>
                     <li>
-                      <Link href="/company" class="font-medium text-gray-950 data-hover:text-gray-950/75">Company</Link>
+                      <Link href="/company" class="font-medium text-gray-950 data-hover:text-gray-950/75">Companie</Link>
                     </li>
                   </ul>
                 </div>
                 <div>
-                  <h3 class="text-sm/6 font-medium text-gray-950/50">Support</h3>
+                  <h3 class="text-sm/6 font-medium text-gray-950/50">Suport</h3>
                   <ul class="mt-6 space-y-4 text-sm/6">
                     <li>
-                      <Link href="#" class="font-medium text-gray-950 data-hover:text-gray-950/75">Help center</Link>
+                      <Link href="#" class="font-medium text-gray-950 data-hover:text-gray-950/75">Centru de ajutor</Link>
                     </li>
                     <li>
-                      <Link href="#" class="font-medium text-gray-950 data-hover:text-gray-950/75">Community</Link>
+                      <Link href="#" class="font-medium text-gray-950 data-hover:text-gray-950/75">Comunitate</Link>
                     </li>
                   </ul>
                 </div>
                 <div>
-                  <h3 class="text-sm/6 font-medium text-gray-950/50">Company</h3>
+                  <h3 class="text-sm/6 font-medium text-gray-950/50">Companie</h3>
                   <ul class="mt-6 space-y-4 text-sm/6">
                     <li>
-                      <Link href="#" class="font-medium text-gray-950 data-hover:text-gray-950/75">Terms of service</Link>
+                      <Link href="#" class="font-medium text-gray-950 data-hover:text-gray-950/75">Termeni de utilizare</Link>
                     </li>
                     <li>
-                      <Link href="#" class="font-medium text-gray-950 data-hover:text-gray-950/75">Privacy policy</Link>
+                      <Link href="#" class="font-medium text-gray-950 data-hover:text-gray-950/75">Politica de confidențialitate</Link>
                     </li>
                   </ul>
                 </div>
@@ -95,7 +95,7 @@
                 <Link
                   href="https://facebook.com"
                   target="_blank"
-                  aria-label="Visit us on Facebook"
+                  aria-label="Vizitează-ne pe Facebook"
                   class="text-gray-950 data-hover:text-gray-950/75"
                 >
                   <svg viewBox="0 0 16 16" fill="currentColor" class="size-4">
@@ -109,7 +109,7 @@
                 <Link
                   href="https://x.com"
                   target="_blank"
-                  aria-label="Visit us on X"
+                  aria-label="Vizitează-ne pe X"
                   class="text-gray-950 data-hover:text-gray-950/75"
                 >
                   <svg viewBox="0 0 16 16" fill="currentColor" class="size-4">
@@ -119,7 +119,7 @@
                 <Link
                   href="https://linkedin.com"
                   target="_blank"
-                  aria-label="Visit us on LinkedIn"
+                  aria-label="Vizitează-ne pe LinkedIn"
                   class="text-gray-950 data-hover:text-gray-950/75"
                 >
                   <svg viewBox="0 0 16 16" fill="currentColor" class="size-4">

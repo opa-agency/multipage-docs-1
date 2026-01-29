@@ -56,9 +56,9 @@ import PlusGridRow from './PlusGridRow.vue'
 import PlusGridItem from './PlusGridItem.vue'
 
 const links = [
-  { href: '/pricing', label: 'Pricing' },
-  { href: '/company', label: 'Company' },
+  { href: '/pricing', label: 'Prețuri' },
+  { href: '/company', label: 'Companie' },
   { href: '/blog', label: 'Blog' },
-  { href: '/login', label: 'Login' },
+  { href: '/login', label: 'Autentificare' },
 ]
 </script>

@@ -4,10 +4,10 @@
     <Container>
       <Navbar />
       <Container class="mt-16">
-        <Heading as="h1">Pricing that grows with your team size.</Heading>
+        <Heading as="h1">Prețuri care cresc odată cu dimensiunea echipei.</Heading>
         <Lead class="mt-6 max-w-3xl">
-          Companies all over the world have closed millions of deals with Radiant.
-          Sign up today and start selling smarter.
+          Companii din întreaga lume au închis milioane de tranzacții cu Radiant.
+          Înscrie-te astăzi și vinde mai inteligent.
         </Lead>
       </Container>
     </Container>
@@ -28,14 +28,14 @@
                   <div class="text-5xl font-medium text-gray-950">${{ tier.priceMonthly }}</div>
                   <div class="text-sm/5 text-gray-950/75">
                     <p>USD</p>
-                    <p>per month</p>
+                    <p>pe lună</p>
                   </div>
                 </div>
                 <div class="mt-8">
-                  <Button :href="tier.href">Start a free trial</Button>
+                  <Button :href="tier.href">Începe perioada gratuită</Button>
                 </div>
                 <div class="mt-8">
-                  <h3 class="text-sm/6 font-medium text-gray-950">Start selling with:</h3>
+                  <h3 class="text-sm/6 font-medium text-gray-950">Începe să vinzi cu:</h3>
                   <ul class="mt-3 space-y-3">
                     <li
                       v-for="feature in tier.highlights"
@@ -46,7 +46,7 @@
                       <span class="inline-flex h-6 items-center">
                         <PlusIcon class="size-3.75 shrink-0 fill-gray-950/25" />
                       </span>
-                      <span v-if="feature.disabled" class="sr-only">Not included:</span>
+                      <span v-if="feature.disabled" class="sr-only">Nu este inclus:</span>
                       {{ feature.description }}
                     </li>
                   </ul>
@@ -60,7 +60,7 @@
     </div>
     <Container class="py-24">
       <table class="w-full text-left">
-        <caption class="sr-only">Pricing plan comparison</caption>
+        <caption class="sr-only">Comparație planuri de preț</caption>
         <colgroup>
           <col class="w-3/5 sm:w-2/5" />
           <col class="w-2/5 data-selected:table-column max-sm:hidden sm:w-1/5" :data-selected="selectedTier === tiers[0] ? '' : undefined" />
@@ -107,12 +107,12 @@
               </div>
             </td>
             <td colspan="3" class="p-0 text-right">
-              <Button variant="outline" :href="selectedTier.href">Get started</Button>
+              <Button variant="outline" :href="selectedTier.href">Începe</Button>
             </td>
           </tr>
           <tr class="max-sm:hidden">
             <th class="p-0" scope="row">
-              <span class="sr-only">Get started</span>
+              <span class="sr-only">Începe</span>
             </th>
             <td
               v-for="tier in tiers"
@@ -120,7 +120,7 @@
               class="px-0 pt-4 pb-0 data-selected:table-cell max-sm:hidden"
               :data-selected="selectedTier === tier ? '' : undefined"
             >
-              <Button variant="outline" :href="tier.href">Get started</Button>
+              <Button variant="outline" :href="tier.href">Începe</Button>
             </td>
           </tr>
         </thead>
@@ -144,11 +144,11 @@
             >
               <template v-if="getFeatureValue(tier, section, feature) === true">
                 <CheckIcon class="size-4 fill-green-600" />
-                <span class="sr-only">Included in {{ tier.name }}</span>
+                <span class="sr-only">Inclus în {{ tier.name }}</span>
               </template>
               <template v-else-if="getFeatureValue(tier, section, feature) === false || getFeatureValue(tier, section, feature) === undefined">
                 <MinusIcon class="size-4 fill-gray-400" />
-                <span class="sr-only">Not included in {{ tier.name }}</span>
+                <span class="sr-only">Nu este inclus în {{ tier.name }}</span>
               </template>
               <template v-else>
                 <div class="text-sm/6">{{ getFeatureValue(tier, section, feature) }}</div>
@@ -174,8 +174,8 @@
             <figure class="mx-auto flex max-w-xl flex-col gap-16 max-lg:text-center">
               <blockquote>
                 <p class="relative text-3xl tracking-tight text-white before:absolute before:-translate-x-full before:content-['“'] after:absolute after:content-['”'] lg:text-4xl">
-                  Thanks to Radiant, we&apos;re finding new leads that we never
-                  would have found with legal methods.
+                  Datorită Radiant, găsim leaduri noi pe care nu le-am fi găsit
+                  niciodată prin metode legale.
                 </p>
               </blockquote>
               <figcaption class="mt-auto">
@@ -214,87 +214,87 @@ import Subheading from '../components/Subheading.vue'
 
 const tiers = [
   {
-    name: 'Starter',
+    name: 'Începător',
     slug: 'starter',
-    description: 'Everything you need to start selling.',
+    description: 'Tot ce ai nevoie ca să începi să vinzi.',
     priceMonthly: 99,
     href: '#',
     highlights: [
-      { description: 'Up to 3 team members' },
-      { description: 'Up to 5 deal progress boards' },
-      { description: 'Source leads from select platforms' },
-      { description: 'RadiantAI integrations', disabled: true },
-      { description: 'Competitor analysis', disabled: true },
+      { description: 'Până la 3 membri în echipă' },
+      { description: 'Până la 5 panouri de progres' },
+      { description: 'Leaduri din platforme selecte' },
+      { description: 'Integrări RadiantAI', disabled: true },
+      { description: 'Analiză competitori', disabled: true },
     ],
     features: [
-      { section: 'Features', name: 'Accounts', value: 3 },
-      { section: 'Features', name: 'Deal progress boards', value: 5 },
-      { section: 'Features', name: 'Sourcing platforms', value: 'Select' },
-      { section: 'Features', name: 'Contacts', value: 100 },
-      { section: 'Features', name: 'AI assisted outreach', value: false },
-      { section: 'Analysis', name: 'Competitor analysis', value: false },
-      { section: 'Analysis', name: 'Dashboard reporting', value: false },
-      { section: 'Analysis', name: 'Community insights', value: false },
-      { section: 'Analysis', name: 'Performance analysis', value: false },
-      { section: 'Support', name: 'Email support', value: true },
-      { section: 'Support', name: '24 / 7 call center support', value: false },
-      { section: 'Support', name: 'Dedicated account manager', value: false },
+      { section: 'Funcționalități', name: 'Conturi', value: 3 },
+      { section: 'Funcționalități', name: 'Panouri de progres', value: 5 },
+      { section: 'Funcționalități', name: 'Platforme de sourcing', value: 'Selecte' },
+      { section: 'Funcționalități', name: 'Contacte', value: 100 },
+      { section: 'Funcționalități', name: 'Outreach asistat de AI', value: false },
+      { section: 'Analiză', name: 'Analiză competitori', value: false },
+      { section: 'Analiză', name: 'Raportare dashboard', value: false },
+      { section: 'Analiză', name: 'Insight-uri comunitate', value: false },
+      { section: 'Analiză', name: 'Analiză performanță', value: false },
+      { section: 'Suport', name: 'Suport email', value: true },
+      { section: 'Suport', name: 'Suport call center 24/7', value: false },
+      { section: 'Suport', name: 'Manager dedicat de cont', value: false },
     ],
   },
   {
-    name: 'Growth',
+    name: 'Creștere',
     slug: 'growth',
-    description: 'All the extras for your growing team.',
+    description: 'Toate extra-urile pentru echipa ta în creștere.',
     priceMonthly: 149,
     href: '#',
     highlights: [
-      { description: 'Up to 10 team members' },
-      { description: 'Unlimited deal progress boards' },
-      { description: 'Source leads from over 50 verified platforms' },
-      { description: 'RadiantAI integrations' },
-      { description: '5 competitor analyses per month' },
+      { description: 'Până la 10 membri în echipă' },
+      { description: 'Panouri de progres nelimitate' },
+      { description: 'Leaduri din peste 50 de platforme verificate' },
+      { description: 'Integrări RadiantAI' },
+      { description: '5 analize de competitori pe lună' },
     ],
     features: [
-      { section: 'Features', name: 'Accounts', value: 10 },
-      { section: 'Features', name: 'Deal progress boards', value: 'Unlimited' },
-      { section: 'Features', name: 'Sourcing platforms', value: '100+' },
-      { section: 'Features', name: 'Contacts', value: 1000 },
-      { section: 'Features', name: 'AI assisted outreach', value: true },
-      { section: 'Analysis', name: 'Competitor analysis', value: '5 / month' },
-      { section: 'Analysis', name: 'Dashboard reporting', value: true },
-      { section: 'Analysis', name: 'Community insights', value: true },
-      { section: 'Analysis', name: 'Performance analysis', value: true },
-      { section: 'Support', name: 'Email support', value: true },
-      { section: 'Support', name: '24 / 7 call center support', value: true },
-      { section: 'Support', name: 'Dedicated account manager', value: false },
+      { section: 'Funcționalități', name: 'Conturi', value: 10 },
+      { section: 'Funcționalități', name: 'Panouri de progres', value: 'Nelimitat' },
+      { section: 'Funcționalități', name: 'Platforme de sourcing', value: '100+' },
+      { section: 'Funcționalități', name: 'Contacte', value: 1000 },
+      { section: 'Funcționalități', name: 'Outreach asistat de AI', value: true },
+      { section: 'Analiză', name: 'Analiză competitori', value: '5 / lună' },
+      { section: 'Analiză', name: 'Raportare dashboard', value: true },
+      { section: 'Analiză', name: 'Insight-uri comunitate', value: true },
+      { section: 'Analiză', name: 'Analiză performanță', value: true },
+      { section: 'Suport', name: 'Suport email', value: true },
+      { section: 'Suport', name: 'Suport call center 24/7', value: true },
+      { section: 'Suport', name: 'Manager dedicat de cont', value: false },
     ],
   },
   {
-    name: 'Enterprise',
+    name: 'Întreprindere',
     slug: 'enterprise',
-    description: 'Added flexibility to close deals at scale.',
+    description: 'Flexibilitate suplimentară pentru a închide tranzacții la scară.',
     priceMonthly: 299,
     href: '#',
     highlights: [
-      { description: 'Unlimited active team members' },
-      { description: 'Unlimited deal progress boards' },
-      { description: 'Source leads from over 100 verified platforms' },
-      { description: 'RadiantAI integrations' },
-      { description: 'Unlimited competitor analyses' },
+      { description: 'Membri activi nelimitați' },
+      { description: 'Panouri de progres nelimitate' },
+      { description: 'Leaduri din peste 100 de platforme verificate' },
+      { description: 'Integrări RadiantAI' },
+      { description: 'Analize de competitori nelimitate' },
     ],
     features: [
-      { section: 'Features', name: 'Accounts', value: 'Unlimited' },
-      { section: 'Features', name: 'Deal progress boards', value: 'Unlimited' },
-      { section: 'Features', name: 'Sourcing platforms', value: '100+' },
-      { section: 'Features', name: 'Contacts', value: 'Unlimited' },
-      { section: 'Features', name: 'AI assisted outreach', value: true },
-      { section: 'Analysis', name: 'Competitor analysis', value: 'Unlimited' },
-      { section: 'Analysis', name: 'Dashboard reporting', value: true },
-      { section: 'Analysis', name: 'Community insights', value: true },
-      { section: 'Analysis', name: 'Performance analysis', value: true },
-      { section: 'Support', name: 'Email support', value: true },
-      { section: 'Support', name: '24 / 7 call center support', value: true },
-      { section: 'Support', name: 'Dedicated account manager', value: true },
+      { section: 'Funcționalități', name: 'Conturi', value: 'Nelimitat' },
+      { section: 'Funcționalități', name: 'Panouri de progres', value: 'Nelimitat' },
+      { section: 'Funcționalități', name: 'Platforme de sourcing', value: '100+' },
+      { section: 'Funcționalități', name: 'Contacte', value: 'Nelimitat' },
+      { section: 'Funcționalități', name: 'Outreach asistat de AI', value: true },
+      { section: 'Analiză', name: 'Analiză competitori', value: 'Nelimitat' },
+      { section: 'Analiză', name: 'Raportare dashboard', value: true },
+      { section: 'Analiză', name: 'Insight-uri comunitate', value: true },
+      { section: 'Analiză', name: 'Analiză performanță', value: true },
+      { section: 'Suport', name: 'Suport email', value: true },
+      { section: 'Suport', name: 'Suport call center 24/7', value: true },
+      { section: 'Suport', name: 'Manager dedicat de cont', value: true },
     ],
   },
 ]

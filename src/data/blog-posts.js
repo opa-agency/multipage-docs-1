@@ -3,27 +3,27 @@
 export const categories = [
   {
     _id: 'product',
-    title: 'Product',
+    title: 'Produs',
     slug: 'product',
-    description: 'Product updates and announcements',
+    description: 'Actualizări și anunțuri de produs',
   },
   {
     _id: 'company',
-    title: 'Company',
+    title: 'Companie',
     slug: 'company',
-    description: 'Company news and culture',
+    description: 'Noutăți și cultură organizațională',
   },
   {
     _id: 'engineering',
-    title: 'Engineering',
+    title: 'Inginerie',
     slug: 'engineering',
-    description: 'Technical articles and insights',
+    description: 'Articole tehnice și insight-uri',
   },
   {
     _id: 'design',
     title: 'Design',
     slug: 'design',
-    description: 'Design thinking and best practices',
+    description: 'Design thinking și bune practici',
   },
 ]
 
@@ -33,7 +33,7 @@ export const authors = [
     name: 'Sarah Johnson',
     slug: 'sarah-johnson',
     image: {
-      url: '/team/michael-foster.jpg',
+      url: '/team/emily-selman.jpg',
       alt: 'Sarah Johnson',
     },
   },
@@ -60,15 +60,15 @@ export const authors = [
 export const posts = [
   {
     _id: 'post-1',
-    title: 'Building a Scalable Design System',
+    title: 'Construirea unui sistem de design scalabil',
     slug: 'building-scalable-design-system',
     excerpt:
-      'Learn how we built a design system that scales across multiple products and teams, ensuring consistency and efficiency.',
+      'Află cum am construit un sistem de design care se scalează pe mai multe produse și echipe, asigurând consistență și eficiență.',
     publishedAt: '2025-01-15T10:00:00Z',
     featured: true,
     mainImage: {
       url: '/screenshots/app.png',
-      alt: 'Design system components',
+      alt: 'Componente de design system',
     },
     author: authors[0],
     categories: [categories[3]],
@@ -78,7 +78,7 @@ export const posts = [
         children: [
           {
             _type: 'span',
-            text: 'Building a design system is one of the most impactful investments a growing company can make. In this article, we will walk through our journey of creating a scalable design system that serves multiple products and teams.',
+            text: 'Construirea unui sistem de design este una dintre cele mai valoroase investiții pe care le poate face o companie în creștere. În acest articol, povestim cum am creat un sistem de design scalabil care servește mai multe produse și echipe.',
           },
         ],
         style: 'normal',
@@ -88,7 +88,7 @@ export const posts = [
         children: [
           {
             _type: 'span',
-            text: 'The Challenge',
+            text: 'Provocarea',
           },
         ],
         style: 'h2',
@@ -98,7 +98,7 @@ export const posts = [
         children: [
           {
             _type: 'span',
-            text: 'As our product suite expanded, we noticed increasing inconsistencies in our user interface. Different teams were solving the same problems in different ways, leading to a fragmented user experience and inefficient development processes.',
+            text: 'Pe măsură ce suita noastră de produse a crescut, am observat inconsistențe tot mai mari în interfață. Echipe diferite rezolvau aceleași probleme în moduri diferite, ceea ce a dus la o experiență fragmentată și procese de dezvoltare ineficiente.',
           },
         ],
         style: 'normal',
@@ -108,7 +108,7 @@ export const posts = [
         children: [
           {
             _type: 'span',
-            text: 'Our Approach',
+            text: 'Abordarea noastră',
           },
         ],
         style: 'h2',
@@ -118,7 +118,7 @@ export const posts = [
         children: [
           {
             _type: 'span',
-            text: 'We started by auditing our existing components and identifying common patterns. This helped us understand what was working well and what needed improvement. We then established design principles that would guide all future decisions.',
+            text: 'Am început prin auditarea componentelor existente și identificarea tiparelor comune. Asta ne-a ajutat să înțelegem ce funcționa bine și ce trebuia îmbunătățit. Apoi am stabilit principii de design care să ghideze deciziile viitoare.',
           },
         ],
         style: 'normal',
@@ -128,7 +128,7 @@ export const posts = [
         children: [
           {
             _type: 'span',
-            text: 'Key components of our design system include a comprehensive component library, detailed documentation, and automated testing to ensure quality. We also implemented a governance model to manage contributions and updates.',
+            text: 'Componentele-cheie ale sistemului nostru includ o bibliotecă completă de componente, documentație detaliată și testare automată pentru a asigura calitatea. Am implementat și un model de guvernanță pentru a gestiona contribuțiile și actualizările.',
           },
         ],
         style: 'normal',
@@ -137,15 +137,15 @@ export const posts = [
   },
   {
     _id: 'post-2',
-    title: 'Introducing Real-Time Collaboration Features',
+    title: 'Lansăm funcții de colaborare în timp real',
     slug: 'introducing-real-time-collaboration',
     excerpt:
-      'Discover our new real-time collaboration features that help teams work together more effectively, no matter where they are.',
+      'Descoperă noile noastre funcții de colaborare în timp real care ajută echipele să lucreze mai eficient, oriunde s-ar afla.',
     publishedAt: '2025-01-10T14:30:00Z',
     featured: true,
     mainImage: {
       url: '/screenshots/competitors.png',
-      alt: 'Real-time collaboration interface',
+      alt: 'Interfață de colaborare în timp real',
     },
     author: authors[1],
     categories: [categories[0]],
@@ -155,7 +155,7 @@ export const posts = [
         children: [
           {
             _type: 'span',
-            text: 'Today we are excited to announce the launch of our real-time collaboration features, designed to help distributed teams work together seamlessly.',
+            text: 'Astăzi suntem încântați să anunțăm lansarea funcțiilor de colaborare în timp real, concepute pentru a ajuta echipele distribuite să lucreze fără fricțiuni.',
           },
         ],
         style: 'normal',
@@ -165,7 +165,7 @@ export const posts = [
         children: [
           {
             _type: 'span',
-            text: 'What is New',
+            text: 'Ce este nou',
           },
         ],
         style: 'h2',
@@ -175,7 +175,7 @@ export const posts = [
         children: [
           {
             _type: 'span',
-            text: 'Our new collaboration suite includes live cursors, real-time document editing, presence indicators, and instant notifications. These features work together to create a truly collaborative workspace.',
+            text: 'Noua suită de colaborare include cursoare live, editare în timp real, indicatori de prezență și notificări instant. Aceste funcții creează împreună un spațiu de lucru cu adevărat colaborativ.',
           },
         ],
         style: 'normal',
@@ -185,7 +185,7 @@ export const posts = [
         children: [
           {
             _type: 'span',
-            text: 'Technical Implementation',
+            text: 'Implementare tehnică',
           },
         ],
         style: 'h2',
@@ -195,7 +195,7 @@ export const posts = [
         children: [
           {
             _type: 'span',
-            text: 'We built this using WebSockets for low-latency communication and operational transformation algorithms to handle concurrent edits. The system is designed to work reliably even with poor network conditions.',
+            text: 'Am construit acest sistem folosind WebSockets pentru comunicare cu latență redusă și algoritmi de transformare operațională pentru editări concurente. Sistemul funcționează fiabil chiar și în condiții de rețea slabe.',
           },
         ],
         style: 'normal',
@@ -204,15 +204,15 @@ export const posts = [
   },
   {
     _id: 'post-3',
-    title: 'Our Journey to Carbon Neutrality',
+    title: 'Drumul nostru către neutralitate climatică',
     slug: 'journey-to-carbon-neutrality',
     excerpt:
-      'An inside look at how we are working towards becoming a carbon-neutral company and our commitment to sustainability.',
+      'O privire din interior asupra eforturilor noastre de a deveni o companie neutră climatic și angajamentul nostru față de sustenabilitate.',
     publishedAt: '2025-01-05T09:00:00Z',
     featured: true,
     mainImage: {
       url: '/screenshots/networking.png',
-      alt: 'Sustainability dashboard',
+      alt: 'Tablou de sustenabilitate',
     },
     author: authors[2],
     categories: [categories[1]],
@@ -222,7 +222,7 @@ export const posts = [
         children: [
           {
             _type: 'span',
-            text: 'Environmental responsibility is core to our mission. Today, we are sharing our roadmap to becoming a carbon-neutral company by 2026.',
+            text: 'Responsabilitatea față de mediu este centrală misiunii noastre. Astăzi împărtășim planul nostru pentru a deveni o companie neutră climatic până în 2026.',
           },
         ],
         style: 'normal',
@@ -232,7 +232,7 @@ export const posts = [
         children: [
           {
             _type: 'span',
-            text: 'Measuring Our Impact',
+            text: 'Măsurarea impactului',
           },
         ],
         style: 'h2',
@@ -242,7 +242,7 @@ export const posts = [
         children: [
           {
             _type: 'span',
-            text: 'The first step was understanding our carbon footprint. We conducted a comprehensive audit of our operations, from data centers to employee commutes.',
+            text: 'Primul pas a fost să înțelegem amprenta noastră de carbon. Am realizat un audit complet al operațiunilor, de la centrele de date la naveta angajaților.',
           },
         ],
         style: 'normal',
@@ -252,7 +252,7 @@ export const posts = [
         children: [
           {
             _type: 'span',
-            text: 'Action Plan',
+            text: 'Plan de acțiune',
           },
         ],
         style: 'h2',
@@ -262,7 +262,7 @@ export const posts = [
         children: [
           {
             _type: 'span',
-            text: 'Our strategy includes transitioning to 100% renewable energy, optimizing our infrastructure for energy efficiency, and partnering with verified carbon offset programs.',
+            text: 'Strategia noastră include trecerea la energie 100% regenerabilă, optimizarea infrastructurii pentru eficiență energetică și parteneriate cu programe verificate de compensare a carbonului.',
           },
         ],
         style: 'normal',
@@ -271,15 +271,15 @@ export const posts = [
   },
   {
     _id: 'post-4',
-    title: 'Optimizing Performance at Scale',
+    title: 'Optimizarea performanței la scară',
     slug: 'optimizing-performance-at-scale',
     excerpt:
-      'Technical deep-dive into how we improved our application performance by 300% while handling millions of users.',
+      'Analiză tehnică despre cum am îmbunătățit performanța aplicației cu 300% în timp ce deserveam milioane de utilizatori.',
     publishedAt: '2024-12-28T11:00:00Z',
     featured: false,
     mainImage: {
       url: '/screenshots/engagement.png',
-      alt: 'Performance monitoring dashboard',
+      alt: 'Tablou de monitorizare a performanței',
     },
     author: authors[1],
     categories: [categories[2]],
@@ -289,7 +289,7 @@ export const posts = [
         children: [
           {
             _type: 'span',
-            text: 'Performance optimization is an ongoing challenge, especially as you scale. Here is how we achieved a 300% performance improvement.',
+            text: 'Optimizarea performanței este o provocare continuă, mai ales când scalezi. Iată cum am obținut o îmbunătățire de 300% a performanței.',
           },
         ],
         style: 'normal',
@@ -299,7 +299,7 @@ export const posts = [
         children: [
           {
             _type: 'span',
-            text: 'Identifying Bottlenecks',
+            text: 'Identificarea blocajelor',
           },
         ],
         style: 'h2',
@@ -309,7 +309,7 @@ export const posts = [
         children: [
           {
             _type: 'span',
-            text: 'We used advanced profiling tools to identify the most critical performance bottlenecks in our application.',
+            text: 'Am folosit instrumente avansate de profiling pentru a identifica cele mai critice blocaje de performanță din aplicație.',
           },
         ],
         style: 'normal',
@@ -318,15 +318,15 @@ export const posts = [
   },
   {
     _id: 'post-5',
-    title: 'User Research: What We Learned',
+    title: 'Cercetare cu utilizatori: ce am învățat',
     slug: 'user-research-findings',
     excerpt:
-      'Key insights from our latest user research study and how they are shaping our product roadmap.',
+      'Insight-urile cheie din ultimul nostru studiu de cercetare și cum ne influențează roadmap-ul produsului.',
     publishedAt: '2024-12-20T16:00:00Z',
     featured: false,
     mainImage: {
       url: '/screenshots/profile.png',
-      alt: 'User research session',
+      alt: 'Sesiune de cercetare cu utilizatori',
     },
     author: authors[0],
     categories: [categories[3]],
@@ -336,7 +336,7 @@ export const posts = [
         children: [
           {
             _type: 'span',
-            text: 'Understanding our users is fundamental to building great products. Here are the key findings from our recent research.',
+            text: 'Înțelegerea utilizatorilor este fundamentală pentru a construi produse grozave. Iată principalele concluzii din cercetarea noastră recentă.',
           },
         ],
         style: 'normal',
@@ -345,10 +345,10 @@ export const posts = [
   },
   {
     _id: 'post-6',
-    title: 'API v3.0 Release Notes',
+    title: 'Note de lansare API v3.0',
     slug: 'api-v3-release-notes',
     excerpt:
-      'Everything you need to know about our new API version, including breaking changes and migration guide.',
+      'Tot ce trebuie să știi despre noua versiune a API-ului, inclusiv schimbări incompatibile și ghid de migrare.',
     publishedAt: '2024-12-15T08:00:00Z',
     featured: false,
     author: authors[1],
@@ -359,7 +359,7 @@ export const posts = [
         children: [
           {
             _type: 'span',
-            text: 'We are excited to announce API v3.0, our most powerful API release yet.',
+            text: 'Suntem încântați să anunțăm API v3.0, cea mai puternică versiune de până acum.',
           },
         ],
         style: 'normal',
@@ -368,10 +368,10 @@ export const posts = [
   },
   {
     _id: 'post-7',
-    title: 'Building an Inclusive Workplace',
+    title: 'Construirea unui mediu de lucru incluziv',
     slug: 'building-inclusive-workplace',
     excerpt:
-      'Our ongoing commitment to diversity, equity, and inclusion, and the programs we have implemented.',
+      'Angajamentul nostru continuu pentru diversitate, echitate și incluziune, și programele implementate.',
     publishedAt: '2024-12-10T10:00:00Z',
     featured: false,
     author: authors[2],
@@ -382,7 +382,7 @@ export const posts = [
         children: [
           {
             _type: 'span',
-            text: 'Creating an inclusive workplace is not just the right thing to do—it makes us better as a company.',
+            text: 'Crearea unui mediu de lucru incluziv nu este doar corectă—ne face o companie mai bună.',
           },
         ],
         style: 'normal',
@@ -391,9 +391,9 @@ export const posts = [
   },
   {
     _id: 'post-8',
-    title: 'Security Best Practices Update',
+    title: 'Actualizare: bune practici de securitate',
     slug: 'security-best-practices',
-    excerpt: 'Important security updates and best practices to keep your data safe.',
+    excerpt: 'Actualizări importante de securitate și bune practici pentru a-ți păstra datele în siguranță.',
     publishedAt: '2024-12-05T13:00:00Z',
     featured: false,
     author: authors[1],
@@ -404,7 +404,7 @@ export const posts = [
         children: [
           {
             _type: 'span',
-            text: 'Security is a top priority. This update outlines the latest best practices for protecting your data.',
+            text: 'Securitatea este o prioritate. Această actualizare prezintă cele mai noi bune practici pentru protejarea datelor.',
           },
         ],
         style: 'normal',
@@ -413,9 +413,9 @@ export const posts = [
   },
   {
     _id: 'post-9',
-    title: 'How We Built Our Onboarding Flow',
+    title: 'Cum am construit fluxul de onboarding',
     slug: 'building-our-onboarding-flow',
-    excerpt: 'A behind-the-scenes look at how we crafted a frictionless onboarding experience.',
+    excerpt: 'O privire din culise asupra modului în care am creat o experiență de onboarding fără fricțiuni.',
     publishedAt: '2024-12-01T09:30:00Z',
     featured: false,
     author: authors[0],
@@ -426,7 +426,7 @@ export const posts = [
         children: [
           {
             _type: 'span',
-            text: 'We designed our onboarding flow to help new users get value from Radiant as quickly as possible.',
+            text: 'Am proiectat fluxul de onboarding pentru ca noii utilizatori să obțină valoare din Radiant cât mai repede posibil.',
           },
         ],
         style: 'normal',

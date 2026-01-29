@@ -2,8 +2,8 @@
   <div class="overflow-hidden py-32">
     <Container>
       <div>
-        <Subheading>What everyone is saying</Subheading>
-        <Heading as="h3" class="mt-2">Trusted by professionals.</Heading>
+        <Subheading>Ce spune toată lumea</Subheading>
+        <Heading as="h3" class="mt-2">De încredere pentru profesioniști.</Heading>
       </div>
     </Container>
     <div
@@ -43,12 +43,12 @@
       <div class="flex justify-between">
         <div>
           <p class="max-w-sm text-sm/6 text-gray-600">
-            Join the best sellers in the business and start using Radiant to hit
-            your targets today.
+            Alătură-te celor mai buni vânzători și începe să folosești Radiant
+            pentru a-ți atinge obiectivele.
           </p>
           <div class="mt-2">
             <Link href="#" class="inline-flex items-center gap-2 text-sm/6 font-medium text-pink-600">
-              Get started
+              Începe
               <ArrowLongRightIcon class="size-5" />
             </Link>
           </div>
@@ -80,39 +80,39 @@ const testimonials = [
   {
     img: '/testimonials/tina-yards.jpg',
     name: 'Tina Yards',
-    title: 'VP of Sales, Protocol',
+    title: 'VP Vânzări, Protocol',
     quote:
-      'Thanks to Radiant, we’re finding new leads that we never would have found with legal methods.',
+      'Datorită Radiant, găsim leaduri noi pe care nu le-am fi găsit niciodată prin metode legale.',
   },
   {
     img: '/testimonials/conor-neville.jpg',
     name: 'Conor Neville',
-    title: 'Head of Customer Success, TaxPal',
-    quote: 'Radiant made undercutting all of our competitors an absolute breeze.',
+    title: 'Șef Succes Clienți, TaxPal',
+    quote: 'Radiant a făcut subminarea tuturor competitorilor noștri incredibil de ușoară.',
   },
   {
     img: '/testimonials/amy-chase.jpg',
     name: 'Amy Chase',
     title: 'Head of GTM, Pocket',
-    quote: 'We closed a deal in literally a few minutes because we knew their exact budget.',
+    quote: 'Am închis o tranzacție în doar câteva minute pentru că știam bugetul exact.',
   },
   {
     img: '/testimonials/veronica-winton.jpg',
     name: 'Veronica Winton',
     title: 'CSO, Planeteria',
-    quote: 'We’ve managed to put two of our main competitors out of business in 6 months.',
+    quote: 'Am reușit să scoatem din joc doi dintre principalii competitori în 6 luni.',
   },
   {
     img: '/testimonials/dillon-lenora.jpg',
     name: 'Dillon Lenora',
-    title: 'VP of Sales, Detax',
-    quote: 'I was able to replace 80% of my team with RadiantAI bots.',
+    title: 'VP Vânzări, Detax',
+    quote: 'Am putut înlocui 80% din echipă cu boți RadiantAI.',
   },
   {
     img: '/testimonials/harriet-arron.jpg',
     name: 'Harriet Arron',
-    title: 'Account Manager, Commit',
-    quote: 'I’ve smashed all my targets without having to speak to a lead in months.',
+    title: 'Manager de cont, Commit',
+    quote: 'Am depășit toate țintele fără să vorbesc cu un lead luni întregi.',
   },
 ]
 

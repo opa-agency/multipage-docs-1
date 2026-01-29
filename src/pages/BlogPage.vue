@@ -4,15 +4,15 @@
     <Container>
       <Navbar />
       <Subheading class="mt-16">Blog</Subheading>
-      <Heading as="h1" class="mt-2">What’s happening at Radiant.</Heading>
+      <Heading as="h1" class="mt-2">Ce se întâmplă la Radiant.</Heading>
       <Lead class="mt-6 max-w-3xl">
-        Stay informed with product updates, company news, and insights on how to
-        sell smarter at your company.
+        Rămâi informat cu actualizări de produs, noutăți despre companie și
+        insight-uri despre cum să vinzi mai inteligent.
       </Lead>
     </Container>
     <div v-if="page === 1 && !category" class="mt-16 bg-linear-to-t from-gray-100 pb-14">
       <Container>
-        <h2 class="text-2xl font-medium tracking-tight">Featured</h2>
+        <h2 class="text-2xl font-medium tracking-tight">Recomandate</h2>
         <div class="mt-6 grid grid-cols-1 gap-8 lg:grid-cols-3">
           <div
             v-for="post in featuredPosts"
@@ -65,7 +65,7 @@
                 :class="['group grid grid-cols-[1rem_1fr] items-center gap-2 rounded-md px-2 py-1', active ? 'bg-gray-950/5' : '']"
               >
                 <CheckIcon class="hidden size-4 group-data-selected:block" />
-                <p class="col-start-2 text-sm/6">All categories</p>
+                <p class="col-start-2 text-sm/6">Toate categoriile</p>
               </Link>
             </MenuItem>
             <MenuItem v-for="cat in categories" :key="cat.slug" v-slot="{ active }">
@@ -82,10 +82,10 @@
         </Menu>
         <Button variant="outline" href="/blog/feed.xml" class="gap-1">
           <RssIcon class="size-4" />
-          RSS Feed
+          Flux RSS
         </Button>
       </div>
-      <div v-if="posts.length === 0" class="mt-6 text-gray-500">No posts found.</div>
+      <div v-if="posts.length === 0" class="mt-6 text-gray-500">Nu am găsit postări.</div>
       <div v-else class="mt-6">
         <div
           v-for="post in posts"
@@ -112,7 +112,7 @@
             <div class="mt-4">
               <Link :href="`/blog/${post.slug}`" class="flex items-center gap-1 text-sm/5 font-medium">
                 <span class="absolute inset-0" />
-                Read more
+                Citește mai mult
                 <ChevronRightIcon class="size-4 fill-gray-400" />
               </Link>
             </div>
@@ -122,7 +122,7 @@
       <div v-if="pageCount > 1" class="mt-6 flex items-center justify-between gap-2">
         <Button variant="outline" :href="previousPageUrl" :disabled="!previousPageUrl">
           <ChevronLeftIcon class="size-4" />
-          Previous
+          Anterior
         </Button>
         <div class="flex gap-2 max-sm:hidden">
           <Link
@@ -136,7 +136,7 @@
           </Link>
         </div>
         <Button variant="outline" :href="nextPageUrl" :disabled="!nextPageUrl">
-          Next
+          Următor
           <ChevronRightIcon class="size-4" />
         </Button>
       </div>
@@ -157,6 +157,7 @@ import {
   RssIcon,
 } from '@heroicons/vue/20/solid'
 import dayjs from 'dayjs'
+import 'dayjs/locale/ro'
 import Button from '../components/Button.vue'
 import Container from '../components/Container.vue'
 import Footer from '../components/Footer.vue'
@@ -175,6 +176,8 @@ import {
 
 const route = useRoute()
 const router = useRouter()
+
+dayjs.locale('ro')
 
 const postsPerPage = 5
 
@@ -199,7 +202,7 @@ const posts = computed(() => postsData.value.posts)
 
 const selectedCategoryTitle = computed(() => {
   const match = categories.value.find((item) => item.slug === category.value)
-  return match ? match.title : 'All categories'
+  return match ? match.title : 'Toate categoriile'
 })
 
 const totalPosts = computed(() => getPostsCount(category.value))

@@ -1,10 +1,10 @@
 <template>
   <main class="min-h-dvh bg-white">
     <Container class="pt-24">
-      <Heading as="h1">Page not found</Heading>
-      <Lead class="mt-6">The page you’re looking for doesn’t exist.</Lead>
+      <Heading as="h1">Pagina nu a fost găsită</Heading>
+      <Lead class="mt-6">Pagina pe care o cauți nu există.</Lead>
       <div class="mt-8">
-        <Button href="/">Back to home</Button>
+        <Button href="/">Înapoi acasă</Button>
       </div>
     </Container>
   </main>
