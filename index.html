@@ -14,6 +14,16 @@
       title="The Radiant Blog"
       href="/blog/feed.xml"
     >
+    <script>
+      // Handle SPA routing on page refresh
+      (function() {
+        let redirect = sessionStorage.redirect;
+        delete sessionStorage.redirect;
+        if (redirect && redirect !== location.pathname) {
+          history.replaceState(null, null, redirect);
+        }
+      })();
+    </script>
   </head>
   <body class="text-gray-950 antialiased">
     <div id="app"></div>
